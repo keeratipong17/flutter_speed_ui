@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_dti_project/views/e02_page_ui.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class E01PageUi extends StatefulWidget {
@@ -39,7 +40,13 @@ class _E01PageUiState extends State<E01PageUi> {
                   height: 50,
                 ),
                 ElevatedButton(
-                  onPressed: () {},
+                  onPressed: () {Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => E02PageUi(),
+                    ),
+                  );
+                  },
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
