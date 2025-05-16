@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_dti_project/views/c02_page_ui.dart';
+import 'package:flutter_speed_ui_project/views/c02_page_ui.dart';
 
 class C03PageUi extends StatefulWidget {
   const C03PageUi({super.key});

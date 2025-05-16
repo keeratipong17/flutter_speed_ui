@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_dti_project/views/e06_page_ui.dart';
-
+import 'package:flutter_speed_ui_project/views/e04_page_ui.dart';
+import 'package:flutter_speed_ui_project/views/e06_page_ui.dart';
 
 class E05PageUI extends StatefulWidget {
   const E05PageUI({super.key});
@@ -31,7 +31,12 @@ class _E05PageUIState extends State<E05PageUI> {
                       alignment: Alignment.centerLeft,
                       child: IconButton(
                         onPressed: () {
-                          Navigator.pop(context);
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => E04PageUI(),
+                            ),
+                          );
                         },
                         icon: Icon(
                           Icons.arrow_back_ios,
@@ -154,11 +159,11 @@ class _E05PageUIState extends State<E05PageUI> {
                 GestureDetector(
                   onTap: () {
                     Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) => E06PageUI(),
-                    ),
-                  );
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => E06PageUI(),
+                      ),
+                    );
                   },
                   child: Container(
                     width: double.infinity,

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_dti_project/views/c03_page_ui.dart';
-
+import 'package:flutter_speed_ui_project/views/c03_page_ui.dart';
 
 class C02PageUI extends StatefulWidget {
   const C02PageUI({super.key});
@@ -27,7 +26,7 @@ class _C02PageUIState extends State<C02PageUI> {
               ),
               Image.asset(
                 'assets/images/imgc2.png',
-                width: 150,
+                width: 100,
               ),
               SizedBox(
                 height: 30,
@@ -62,7 +61,6 @@ class _C02PageUIState extends State<C02PageUI> {
                   horizontal: 0,
                 ),
                 child: TextField(
-                  
                   decoration: InputDecoration(
                     filled: true,
                     fillColor: Color(0xFFfafafa),
